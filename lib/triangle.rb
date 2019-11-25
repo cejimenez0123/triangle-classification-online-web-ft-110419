@@ -21,9 +21,7 @@ class Triangle
 
 end
 class TriangleError < StandardError
-  def error
-    nil
-  end
+  
 
 end
 end
