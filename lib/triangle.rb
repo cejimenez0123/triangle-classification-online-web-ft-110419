@@ -1,7 +1,7 @@
 class Triangle
   attr_accessor :side_1, :side_2, :side_3
-  attributes = { side_1: nil, side_2: nil ,side_3: nil}
-  def initialize(attributes)
+  
+  def initialize(side_1,side_2,side_3)
 attributes.each {|key, value| self.kind(("#{key}="), value)}
 
   end
